@@ -73,7 +73,7 @@ public class Controller extends HttpServlet {
 		}
 
 		// redirecionar para a pagina inicial - menu.jsp
-		response.sendRedirect("main");
+		response.sendRedirect("editPage");
 	}
 
 	// metodo para exibir a listagem completa dos produtos cadastrados
